@@ -1,0 +1,12 @@
+[package]
+name = "teensy"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cortex-m-rt = "0.7"
+cortex-m = "0.7"
+embedded-hal = "0.2"
+imxrt-hal = "0.4.5"
+teensy4-bsp = {version = "0.3", features = ["rt"]}
+teensy4-panic = "0.2"
